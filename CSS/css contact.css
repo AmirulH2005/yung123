@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #e0e4e3;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.social-media img {
+    vertical-align: middle;
+    width: 25px;
+    height: 15px;
+    margin-right: 10px;
+}
+/* Add any global styles here */
+
+.contact-info .highlight {
+    font-family: 'Tienne', serif;
+}
+
+/* Other styles can go here */

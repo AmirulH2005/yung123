@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amirul Hakim</title>
+    <!-- Ensure the paths to your CSS files are correct -->
+    <link href="https://fonts.googleapis.com/css2?family=Strait&family=Ataliana&display=swap" rel="stylesheet">
+    <link href="CSS/css part 2.css" rel="stylesheet" type="text/css">
+    <style>
+        /* CSS for navigation */
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        
+        header nav ul li {
+            margin: 0 10px;
+            position: relative;
+        }
+        
+        header nav ul li:not(:first-child)::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: -10px; /* Adjust position as needed */
+            transform: translateY(-50%);
+            height: 80%; /* Adjust height as needed */
+            width: 1px; /* Adjust width as needed */
+            background-color: black; /* Color of the line */
+        }
+        
+        header nav ul li a {
+            text-decoration: none;
+            color: black; /* Link color */
+            font-family: 'Strait', 'Ataliana', sans-serif; /* Font family */
+        }
+
+        header a h1 {
+            color: black; /* Set header text color */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>AMIRUL HAKIM</h1></a>
+        <nav>
+            <ul>
+                <li><a href="Lifestyle.html">Lifestyle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="Work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="profile">
+            <!-- Ensure the path to the image file is correct -->
+            <img src="IMAGE/photo_2024-07-08_21-08-21.jpg" alt="Amirul Hakim">
+        </section>
+    </main>
+</body>
+</html>
